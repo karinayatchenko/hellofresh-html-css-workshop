@@ -1,3 +1,35 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+    height: 30px;
+}
+
+.header-links {
+    list-style: none;
+    padding: 20px;
+    display:inline-block;
+  
+    
+}
+
+/* .header-links:hover{
+    background-color:rgb(210, 248, 149);
+    color:darkgreen; 
+} */
+
+a:hover{
+    color:darkgreen;
+    background-color:rgb(210, 248, 149);
+    padding: 15px;
+}
+
+a {    
+    font: bold;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color:#242424;
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+}

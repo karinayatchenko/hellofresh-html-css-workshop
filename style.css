@@ -1,28 +1,67 @@
-body {
-    font-family: 'Roboto', sans-serif;
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
 }
 
 .logo {
     height: 30px;
+    list-style: none;
+    display:inline-block;
 }
+
 
 .header-links {
     list-style: none;
-    padding: 20px;
     display:inline-block;
-  
-    
+    color:#242424;   
 }
 
-/* .header-links:hover{
-    background-color:rgb(210, 248, 149);
-    color:darkgreen; 
-} */
+h1 {
+    font-size: 32px;
+    font-family: Agrandir,Verdana,Geneva,sans-serif;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: Agrandir,Verdana,Geneva,sans-serif;
+    font-size: 16px;
+    display: block;
+    padding-left: 10px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align:left;
+}
+
+.recipe-description{
+    font-family: Agrandir,Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    padding-bottom:60px;
+    display: block;
+    padding-left: 10px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align:left;
+    }
+
 
 a:hover{
     color:darkgreen;
     background-color:rgb(210, 248, 149);
-    padding: 15px;
+    display: inline-block;  
+    padding: 15px 15px 15px 15px;
 }
 
 a {    
@@ -30,6 +69,156 @@ a {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
     color:#242424;
     font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+.img-menu{     
+    padding-bottom: 10px;
+    width: 348px;
+    height: 195.5;
+}   
+
+.stars{
+    border: 5px solid red;
+    position: absolute;
+    bottom: 350px;
+    left: 16px;
+}
+
+.single-star{
+    border: 5px solid blue; 
+    color:#067a46;
+    background-color: green;
+}
+
+.hall-of-fame{
+    border: 2px solid blue;
+    display: inline-block;
+    margin-left: 30px; 
+    margin-bottom: 50px; 
+    background-color: white;
+    box-shadow: 10px 10px 5px #ccc;
+    position: relative; 
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 246, 246);
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 25px;
+
+ }
+
+.button {
+    font-family: Agrandir,Verdana,Geneva,sans-serif;
+    background-color: #067a46;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 32px;
+    margin-top: 30px;
+   
+   
+}
+
+.button:hover{
+    background-color: darkgreen;
+    color: white;
+    display: inline-block;
+    padding: 15px 32px;
+}
+
+main {
+    background-color: rgb(243, 238, 238);
+    /* text-align: center; */
+    padding-bottom: 50px;
+}
+
+.prep-time {
+    font-style: bold;
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    text-align: left;
+  }
+
+.preference-label {
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #676767;
+    padding-left: 5px;
+  }  
+
+.img-hall-of-fame {
+    width: 728px;
+    height: 482.3px;
+    position: relative;
+    display: inline-block;
+}  
+
+.body{
+    display:flex;
+    max-width: 1140px;
+    margin:auto;
+    flex-wrap:wrap;
+    justify-content:center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.menu-cards{
+    background-color: white;  
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 5px #ccc; 
+    width: 348px;
+   }
+
+
+/* .flex-nav ul{
+    border:2px solid fuchsia;
+    list-style: none;
+    display: flex;
+} */
+
+
+.best-recipe {
+  position: absolute;
+  bottom: 300px;
+  left: 16px;
+  color: white;
+  font-size: 20px;
+  font-family: Agrandir,Verdana,Geneva,sans-serif;
+
+  }
+
+.comment{
+    position: absolute;
+    bottom: 250px;
+    left: 16px;
+    color: white;
+    font-size: 18px;
+    font-family: Agrandir,Verdana,Geneva,sans-serif;
+}
+
+.review-name{
+  position: absolute;
+  bottom: 180px;
+  right: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: Agrandir,Verdana,Geneva,sans-serif;
 }

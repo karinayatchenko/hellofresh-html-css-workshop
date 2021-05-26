@@ -74,11 +74,11 @@ a {
   font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/* a logo:hover{
-    background-color: white;
-    border: 2px solid green;
-    padding: 15px 15px 15px 15px;
-} */
+a logo:hover {
+  background-color: white;
+  border: 2px solid green;
+  padding: 15px 15px 15px 15px;
+}
 
 .img-menu {
   padding-bottom: 10px;
